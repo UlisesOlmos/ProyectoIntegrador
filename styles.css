@@ -1,0 +1,58 @@
+#header{
+    background: url("/img/banner.jpeg");
+    background-position: 50%;
+    background-size: cover;
+    height: 65vh;
+    position: relative;
+}
+
+#header::before{
+    background: rgba(0,0,0,.7);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    content: "";
+}
+
+#banner{
+    position: relative;
+    height: 100%;
+}
+
+#perfil{
+    scroll-margin-top: 200px;
+}
+
+#educacion{
+    scroll-margin-top: 70px;
+}
+
+#profile-img{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translateY(-75px);
+    margin-bottom: -37px;
+}
+
+.educacion-img{
+    width: 100%;
+    border-radius: 10px;
+    max-width: 110px;
+}
+
+.footer-links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #EEEEEE;
+    width: min-content;
+}
